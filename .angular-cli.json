@@ -19,9 +19,16 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/patternfly/dist/css/patternfly.min.css",
+        "../node_modules/patternfly/dist/css/patternfly-additions.min.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+          "../node_modules/patternfly/node_modules/jquery/dist/jquery.min.js",
+          "../node_modules/patternfly/node_modules/bootstrap/dist/js/bootstrap.min.js",
+          "../node_modules/patternfly/node_modules/jquery-match-height/dist/jquery.matchHeight-min.js",
+          "../node_modules/patternfly/dist/js/patternfly.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
