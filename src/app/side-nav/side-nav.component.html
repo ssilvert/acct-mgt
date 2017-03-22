@@ -2,7 +2,7 @@
     <ul class="list-group">
         <div *ngFor="let item of navItems">
             <li (click)="setActive(item)" class="list-group-item {{item.active}}">
-                <a href="{{item.link}}">
+                <a [routerLink]="[item.link]">
                     <span class="{{item.icon.getClasses()}}" title="{{item.title}}" data-toggle="tooltip" data-placement="right"></span>
                     <span class="list-group-item-value">{{item.displayName}}</span>
                 </a>

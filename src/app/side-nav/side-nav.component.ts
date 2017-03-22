@@ -13,11 +13,11 @@ export class SideNavComponent implements OnInit {
 
   constructor() { 
       this.navItems = [
-        new SideNavItem("Account", "#", "Account", new Icon("pficon", "user"), "active"),
-        new SideNavItem("Password", "#", "Password", new Icon("pficon", "key")),
-        new SideNavItem("Authenticator", "#", "Authenticator", new Icon("pficon", "cloud-security")),
-        new SideNavItem("Sessions", "#", "Sessions", new Icon("fa", "clock-o")),
-        new SideNavItem("Applications", "#", "Password", new Icon("fa", "th")),
+        new SideNavItem("Account", "account", "Account", new Icon("pficon", "user"), "active"),
+        new SideNavItem("Password", "password", "Password", new Icon("pficon", "key")),
+        new SideNavItem("Authenticator", "authenticator", "Authenticator", new Icon("pficon", "cloud-security")),
+        new SideNavItem("Sessions", "sessions", "Sessions", new Icon("fa", "clock-o")),
+        new SideNavItem("Applications", "applications", "Password", new Icon("fa", "th")),
       ];
       
   }
