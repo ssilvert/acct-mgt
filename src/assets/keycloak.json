@@ -1,0 +1,10 @@
+{
+  "realm": "master",
+  "auth-server-url": "http://localhost:8080/auth",
+  "ssl-required": "external",
+  "resource": "account",
+  "credentials": {
+    "secret": "22e8b452-1df8-4efb-8896-378f6dd9c5c1"
+  },
+  "use-resource-role-mappings": true
+}
